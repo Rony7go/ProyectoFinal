@@ -1,0 +1,17 @@
+  Diseño de Algoritmo 
+
+
+Solicitar información para ver qué tipos de plan tiene la aseguradora, incluyendo su edad, estado civil, cantidad de hijos y cantidad de propiedades.
+
+ Verificar si el asegurado es mayor de edad. Si no lo es, indicar que no es elegible para la cotización. 
+
+ Calcular el precio base del plan, que puede ser un valor fijo o puede ser ingresado por el usuario o si puede ver una variable en el plan.
+
+Calcular los recargos extra basados en la edad del asegurado y su cónyuge. Para esto, se puede utilizar una estructura condicional para evaluar en qué rango de edad se encuentra cada uno y aplicar el recargo correspondiente.
+
+Calcular los recargos extra basados en la cantidad de hijos del asegurado. Para esto, se puede emplear otra estructura condicional para aplicar el recargo con una cotización diferente si hoy hijos que agregar al plan.
+
+Calcular los recargos extra basados en la cantidad de propiedades del asegurado. Para esto, se puede utilizar otra estructura condicional para aplicar el recargo correspondiente.
+
+Sumar el precio base y los recargos extra para obtener el precio total del plan.
+Mostrar el precio total al usuario y preguntar si desea realizar otra cotización. Si el usuario ingresa “Salir”, finalizar el programa. Si no, volver al paso 
